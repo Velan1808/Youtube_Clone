@@ -1,0 +1,60 @@
+.sidebar{
+    background: white;
+    width: 15%;
+    position: fixed;
+    padding: 2%;
+    transition: 0.8s;
+}
+.sortcuts-links .side-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgb(41, 41, 41);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.sortcuts-links .side-link img{
+    width: 22px;
+}
+hr{
+    width: 100%;
+    margin:20px 0;
+}
+.subscribed-list h3{
+   color: rgb(37, 36, 36);
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 15px;
+}
+.subscribed-list .side-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgb(28, 28, 28);
+    margin-bottom: 18px;
+}
+.subscribed-list .side-link img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.small-sidebar{
+    width: 5%;
+    transition: 0.4s;
+}
+.small-sidebar p{
+    display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+.side-link.active img{
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgb(224, 7, 7);
+}
+
+@media (max-width:750px){
+    .sidebar{
+        display: none;
+    }
+}

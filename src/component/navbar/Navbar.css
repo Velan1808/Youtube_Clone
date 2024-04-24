@@ -1,0 +1,58 @@
+.Navbar{
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    z-index: 10;
+}
+.nav-left .menu-icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .logo{
+    width: 130px;
+}
+.nav-middle{
+    background-color: rgb(246, 241, 241);
+    border: 1px solid gray;
+    padding: 7px 15px;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 30%;
+}
+.nav-middle .search-bar{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 80%;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .user-profile{
+    width: 35px;
+    border-radius: 50%;
+}
+
+@media (max-width:750px){
+    .menu-icon{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-profile{
+        display: block;
+        width: 25px;
+    }
+}

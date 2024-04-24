@@ -1,0 +1,20 @@
+.Home .container{
+    padding-top: 20px;
+    padding-left: 18%;
+    padding-right: 2%;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.Home .large-container{
+    padding-left: 8%;
+}
+
+@media (max-width:750px){
+    .Home .container{
+        padding-top: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+}
